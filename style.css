@@ -1,0 +1,175 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #36393f;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 90%;
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #ffffff;
+}
+
+.login-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #40444b;
+    color: #ffffff;
+    width: 100%;
+    border: 1px solid #202225;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5865f2;
+}
+
+.button:hover {
+    background-color: #4b55d2;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#chat-container {
+    width: 80%;
+    max-width: 600px;
+    height: 80vh;
+    background-color: #2f3136;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#chat-box {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.message strong {
+    margin-right: 10px;
+    color: #7289da;
+}
+
+.message em {
+    margin-left: auto;
+    font-size: 0.8em;
+    color: #72767d;
+}
+
+#chat-input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #40444b;
+}
+
+#chat-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #40444b;
+    color: white;
+}
+
+#send-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7289da;
+    color: white;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #5b6eae;
+}
+
+.login-container {
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container label, .login-container input, .login-container button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.login-container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7289da;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #5b6eae;
+}
