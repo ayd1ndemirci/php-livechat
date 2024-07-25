@@ -20,3 +20,8 @@ Bu proje, basit bir canlı sohbet uygulamasıdır. PHP ve MySQL kullanarak geli�
 - jQuery
 
 ### Ekran Görüntüsü
+
+![image](https://github.com/user-attachments/assets/94717746-2ff8-4f58-b8e8-fe6e0e6465b2)
+
+![image](https://github.com/user-attachments/assets/45b06327-2371-4bd6-8cfd-7cbd34f271e9)
+
